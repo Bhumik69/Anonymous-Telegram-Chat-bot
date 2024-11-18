@@ -145,7 +145,8 @@ bot.onText(/\/chat/, async (msg) => {
       console.error("Failed to save chat:", error);
     }
   } else {
-    await sendMessage(chatId, "No partners available now. Please wait...");
+    await sendMessage(chatId, "No partners available now. Try Again after some time.");
+    delete activeChats[chatId];
   }
 });
 
