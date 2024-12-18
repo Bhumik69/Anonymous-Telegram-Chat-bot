@@ -78,7 +78,7 @@ ADMIN_IDS=comma,separated,admin,ids
 
 ### Step 4: Start the Bot
 ```
-node index.js
+node app.js
 ```
 
 🌐 Environment Variables :- 
