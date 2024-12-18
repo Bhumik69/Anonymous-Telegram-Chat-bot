@@ -60,11 +60,15 @@ npm install dotenv mongodb mongoose node-telegram-bot-api
 
 ### Step 3: Configure Environment Variables
 
-Create a .env file:
-```
-cp .env.example .env
-```
+Open the `.env` file in your project folder and set the following variables:
 
+```env
+BOT_TOKEN=
+ADMIN_IDS=123456789
+MONGODB_URI=mongodb+srv://username:password@cluster0.jseqv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+Replace BOT_TOKEN= with your actual bot token.
+The ADMIN_IDS field can include one or more admin IDs (separate multiple IDs with commas if needed).
+Replace username and password in the MONGODB_URI field with your actual MongoDB credentials.
 Update the .env file with the following details:
 ```
 BOT_TOKEN=your-telegram-bot-token
