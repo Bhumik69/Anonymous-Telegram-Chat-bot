@@ -48,8 +48,8 @@ An **Anonymous Chat Bot** for Telegram, built with **Node.js**, **MongoDB**, and
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/anonymous-chat-bot.git
-cd anonymous-chat-bot
+git clone https://github.com/your-username/Anonymous-Telegram-Chat-bot.git
+cd Anonymous-Telegram-Chat-bot
 ```
 
 ### Step 2: Install Dependencies
